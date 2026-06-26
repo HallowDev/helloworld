@@ -9,7 +9,7 @@ Algo HelloWorld {
         Creer la couleur bleue
         Mettre la couleur bleue sur le label
         // Couleur de fond
-        Mettre la couleur de fond a blanc sur la fenetre
+        Mettre la couleur de fond a vert sur la fenetre
         // Finalisation
         Ajouter le label sur la fenetre
         Afficher la fenetre
