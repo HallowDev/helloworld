@@ -9,7 +9,7 @@ Algo HelloWorld {
         Creer la couleur jaune
         Mettre la couleur jaune sur le label
         // Couleur de fond
-        Mettre la couleur de fond a blanc sur la fenetre
+        Mettre la couleur de fond a jaune sur la fenetre
         // Finalisation
         Ajouter le label sur la fenetre
         Afficher la fenetre
