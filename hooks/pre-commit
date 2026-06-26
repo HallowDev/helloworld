@@ -1,0 +1,17 @@
+#!/bin/bash
+# Hook pre-commit : enregistre une trace de verification du commit.
+
+SUIVI=suivi
+
+read -p "Marquer ce commit comme verifie (y/[n]) ? " yn < /dev/tty
+yn=${yn:-n}
+case $yn in
+    [Yy]* )
+        mkdir -p "$SUIVI"
+        echo "commit verifie le $(date '+%Y-%m-%d %H:%M:%S')" > "$SUIVI/commitInfo.txt"
+        git add "$SUIVI/commitInfo.txt"
+        exit 0;;
+    [Nn]* )
+        exit 0;;
+esac
+exit 0
